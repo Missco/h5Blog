@@ -1,0 +1,281 @@
+/*整体设置*/
+.main-wrapper{
+    background: #444 url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*清除浮动*/
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.onShow{
+    display: block;
+}
+.onHide{
+    display: none;
+}
+/*页头*/
+header{
+    background: rgba(0, 0, 0, 0.3);
+    height: 600px;
+}
+nav{
+    background: transparent;
+    height: 30px;
+}
+ul{
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 20px;
+}
+nav ul li a{
+    line-height: inherit;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: #ddd;
+}
+.fa-envelope-o:before {
+    content: "";
+    color: #999;
+    font-size: 20px;
+}
+nav .logo a{
+    text-decoration: none;
+    color: #999;
+    font-size: 16px;
+}
+#banner .inner{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: #eee;
+}
+
+#banner .inner h1{
+    margin: 0;
+}
+
+#banner .inner .more{
+    margin-top: 120px;
+}
+
+#banner .inner .fa-angle-double-down{
+    font-size: 48px;
+}
+.sub-heading{
+    line-height: 25px;
+    margin: 20px 0;
+}
+button{
+    border: 0;
+    background: #73dab4;
+    color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+#banner button{
+    padding: 13px 23px;
+}
+
+/*内容*/
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.hr{
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+}
+
+.sub-heading{
+    font-size: 19px;
+}
+/*green-section*/
+.green-section{
+    text-align: center;
+    background: #73dab4;
+    color: #fff;
+    height: 600px;
+}
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.green-section .hr{
+    width: 60%;
+    background: #93e6cf;
+    margin: 20px auto;
+}
+.green-section .icon-group{
+    margin-top: 20px;
+    position: relative;
+}
+.green-section .icon-group .icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #75e2bf;
+    transform: rotate(45deg);
+    margin: 60px;
+    padding: 20px;
+}
+.green-section .icon-group .icon_text{
+    color: #fff;
+    position: absolute;
+    top: 110px;
+}
+.icon_text:nth-child(4){
+    left: 278px;
+}
+.icon_text:nth-child(5){
+    left: 517px;
+}
+.icon_text:nth-child(6){
+    right: 268px;
+}
+
+
+/*gray-section*/
+.gray-section{
+    background: #24241d;
+    color: #fff;
+}
+
+.gray-section .img-section{
+    width: 45%;
+}
+
+.img-section img{
+    width: 100%;
+}
+
+.article-preview > div{
+    float: left;
+    font-size: 0;
+}
+.article-preview:nth-child(odd){
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.article-preview::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.gray-section .text-section{
+    width: 55%;  
+}
+
+.text-section{
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+.text-section h2{
+    margin-bottom: 25px;
+}
+
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.text-section .sub-heading{
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.text-section > *{
+    max-width: 90%;
+}
+
+.purple-section{
+    background: rgb(87, 87, 133);
+    color: #fff;
+    
+}
+
+.purple-section .heading-wrapper{
+    text-align: center;
+}
+
+.purple-section .hr{
+    background:  rgb(32, 77, 160);
+    width: 60%;
+}
+
+.card{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.card:first-child{
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.card:nth-child(2){
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.card:nth-child(3){
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.card:nth-child(4){
+    background: rgba(0, 0, 0, 0.16);
+}
+/*页脚*/
+footer{
+    background: #24241d;
+    color: white;
+    min-height: 210px;
+    text-align: center;
+}
+
+ul.share-group{
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.share-group li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.copy{
+    margin-bottom: 20px;
+}
+

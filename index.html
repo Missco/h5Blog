@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>王小窝的页面</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="shortcut icon" href="img/dog_favicon.ico" type="image/x-icon"/>
+    <script src=""></script>
+</head>
+<body>
+    <div class="main-wrapper">
+    <header>  <!--页头开始-->
+        <nav>
+            <div class="fa fa-envelope-o fa-2x logo">
+                <a href="mailto:niao_qing@163.com?
+        Subject=有事与你联系">请点击</a>
+            </div>
+            <ul id="menu" class="onShow">
+                <li><a href="#">MENU</a></li>
+            </ul>
+            <ul id="menu_list" class="onHide">
+                <li><a href="#">目录一</a></li>
+                <li><a href="#">目录二</a></li>
+                <li><a href="#">目录三</a></li>
+                <li><a href="#">目录四</a></li>
+            </ul>
+        </nav>
+        <div id="banner">
+            <div class="inner">
+                <hr>
+                <h1>王小窝</h1>
+                <hr>
+                <p class="sub-heading">Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Praesentium magni nam  hic .</p>
+                <button>Pick Me</button>
+                <div class="more">More</div>
+                <div class="fa fa-angle-double-down"></div>
+            </div>
+        </div>
+    </header><!--页头结束-->
+
+    <!--内容开始-->
+    <div class="content">
+        <section class="green-section">
+            <div class="wrapper">
+                <div>
+                    <h2>A Title</h2>
+                    <div class="hr"></div>
+                    <p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="icon-group">
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon_text">链接一</span>
+                    <span class="icon_text">链接二</span>
+                    <span class="icon_text">链接三</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="gray-section">
+            <div class="article-preview clearfix">
+                <div class="img-section">
+                    <img src="./img/pic01.jpg">
+                </div>
+                <div class="text-section">
+                    <h2>Other Title</h2>
+                    <div class="sub-heading">subtitle</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="article-preview clearfix">
+                <div class="text-section">
+                    <h2>Other Title</h2>
+                    <div class="sub-heading">subtitle</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="img-section">
+                    <img src="./img/pic02.jpg">
+                </div>
+            </div>
+            <div class="article-preview clearfix">
+                <div class="img-section">
+                    <img src="./img/pic03.jpg">
+                </div>
+                <div class="text-section">
+                    <h2>Other Title</h2>
+                    <div class="sub-heading">subtitle</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="purple-section">
+            <div class="wrapper">
+            <div class="heading-wrapper">
+                <h2>Other Title</h2>
+                <div class="hr"></div>
+                <div class="sub-heading">Lorem ipsum dolor sit,
+                     amet consectetur adipisicing elit. Tenetur
+                     qui dicta dolores aperiam? Saepe voluptates
+                     rem ad provident laborum? Accusamus fuga 
+                     doloribus iusto repudiandae voluptate 
+                     laboriosam beatae mollitia, repellat commodi.</div>
+            </div>
+            <div class="card-group clearfix">
+                <div class="card">
+                    <h3>Title 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Tenetur qui dicta dolores
+                     aperiam? Saepe voluptates rem ad provident
+                    laborum? Accusamus fuga doloribus iusto
+                     repudiandae voluptate laboriosam beatae 
+                     mollitia, repellat commodi.</p>
+                </div>
+                <div class="card">
+                    <h3>Title 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur
+                     adipisicing elit. Tenetur qui dicta dolores
+                      aperiam? Saepe voluptates rem ad provident
+                    laborum? Accusamus fuga doloribus iusto
+                     repudiandae voluptate laboriosam beatae
+                      mollitia, repellat commodi.</p>
+                </div>
+                <div class="card">
+                    <h3>Title 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur qui dicta dolores aperiam? Saepe voluptates rem ad
+                        provident laborum? Accusamus fuga doloribus iusto repudiandae voluptate laboriosam beatae mollitia, repellat commodi.</p>
+                </div>
+                <div class="card">
+                    <h3>Title 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur qui dicta dolores aperiam? Saepe voluptates rem ad
+                        provident laborum? Accusamus fuga doloribus iusto repudiandae voluptate laboriosam beatae mollitia, repellat commodi.</p>
+                </div>
+                
+            </div>
+            </div>
+        </section>
+    </div>  
+
+    <footer>
+        <ul class="share-group">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+        </ul>
+        <div class="copy">
+            &copy 王小窝 - 叶白白模仿 - 2018-8-26
+        </div>
+    </footer>  <!--页脚-->
+    </div>
+</body>
+<script>
+    window.onload = function(){
+        var menu = document.getElementById("menu");
+        var menuList = document.getElementById("menu_list");
+        menu.onmouseenter = function(){
+            //方法一：直接使用setAttribute修改class不兼容ie7
+            // menu.setAttribute("class","onHide");
+            // menuList.setAttribute("class","onShow");
+            // 方法二：兼容 
+            menu.className = "onHide" ;   
+            menuList.className = "onShow" ;        
+        }
+        menuList.onmouseleave = function(){
+            //方法一：直接使用setAttribute修改class不兼容ie7
+            // menu.setAttribute("class","onShow");
+            // menuList.setAttribute("class","onHide");
+            // 方法二：兼容   
+            menu.className = "onShow" ;   
+            menuList.className = "onHide" ;           
+        }
+    }
+</script>
+</html>
